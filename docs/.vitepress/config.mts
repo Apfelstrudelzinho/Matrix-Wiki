@@ -1,7 +1,10 @@
+// docs/.vitepress/config.mts
+
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/Matrix-Wiki/', // <--- ADICIONE ESTA LINHA (com barras no início e no fim)
   title: "Matrix Wiki",
   description: "Desde 17 de abril de 2018",
   themeConfig: {
@@ -10,19 +13,6 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    // ... restante da configuração
   }
 })
