@@ -8,18 +8,21 @@ hero:
   tagline: My great project tagline
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Entrar na Matrix
+      link: /inicio
     - theme: alt
-      text: API Examples
+      text: Outro Texto
       link: /api-examples
 
 features:
-  - title: Feature A
+  - title: Poderes
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+    link:
+  - title: Raças
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+    link:
+  - title: História
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link:
 ---
 
